@@ -33,6 +33,7 @@ const CheckoutForm = (props) => {
             name="firstName"
             value={values.firstName}
             onChange={handleChanges}
+            placeholder={"Jimmy"}
           />
         </label>
         <label>
@@ -41,6 +42,7 @@ const CheckoutForm = (props) => {
             name="lastName"
             value={values.lastName}
             onChange={handleChanges}
+            placeholder={"Neutron"}
           />
         </label>
         <label>
